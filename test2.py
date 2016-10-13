@@ -11,5 +11,5 @@ def test_has_lines(passwd):
     assert len(passwd) >= 1
 
 def test_nos_lines(passwd):
-    print('------+testing test has no lines+----')
+    print('+------+testing test has no lines+----')
     assert len(passwd) >= 1
