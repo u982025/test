@@ -6,4 +6,4 @@ def passwd():
         yield f.readlines()
 
 def test_has_lines(passwd):
-    assert len(passwd) >= 30
+    assert len(passwd) >= 31
