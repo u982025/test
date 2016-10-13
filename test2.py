@@ -6,9 +6,10 @@ def passwd():
         yield f.readlines()
 
 def test_has_lines(passwd):
-    print('testing test has lines')
-    assert len(passwd) >= 301
+    for index in range(4):
+        print('---->testing test has lines<---')
+    assert len(passwd) >= 1
 
 def test_nos_lines(passwd):
-    print('testing test has no lines')
+    print('------+testing test has no lines+----')
     assert len(passwd) >= 1
