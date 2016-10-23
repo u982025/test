@@ -1,5 +1,5 @@
 import time
-def make_timer():
+def start_timer():
     start_time = None
     def elapsed():
         nonlocal start_time
