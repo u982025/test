@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
         #Check if timeout expired, and kill the process
         try:
-            retVal = child.communicate(timeout=5)
+            retVal = child.communicate(timeout=10)
         except TimeoutExpired as e:
             child.kill()
             print('TimeoutExpired: %s' %(e))
